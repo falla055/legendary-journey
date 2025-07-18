@@ -111,7 +111,7 @@ export default function Dashboard() {
     en: {
       language: "Language:",
       title: "Endangered Animals Dashboard",
-      description: "This page contains information related to wildlife conservation. The graph on the left presents the 5 most endangered species by year from 2020 to 2023. The graph on the right presents the donations received for wildlife protection over time from 2019 to 2023.",
+      description: "This page contains information related to wildlife conservation. The graph on the left presents the 5 most endangered species by year from 2020 to 2023. The graph on the right presents the funding received for wildlife protection over time from 2019 to 2023.",
       filterRegion: "Filter Data by Region:",
       northAmerica: "North America",
       southAmerica: "South America",
@@ -154,7 +154,7 @@ export default function Dashboard() {
     fr: {
       language: "Langue :",
       title: "Tableau de bord des animaux en voie de disparition",
-      description: "Cette page contient des informations liées à la conservation de la faune. Le graphique de gauche présente les 5 espèces les plus menacées par année de 2020 à 2023. Le graphique de droite présente les dons reçus pour la protection de la faune au fil du temps de 2019 à 2023.",
+      description: "Cette page contient des informations liées à la conservation de la faune. Le graphique de gauche présente les 5 espèces les plus menacées par année de 2020 à 2023. Le graphique de droite présente le financement pour la protection de la faune au fil du temps de 2019 à 2023.",
       filterRegion: "Filtrer les données par région :",
       northAmerica: "Amérique du Nord",
       southAmerica: "Amérique du Sud",
