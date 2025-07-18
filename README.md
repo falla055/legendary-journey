@@ -2,23 +2,6 @@
 
 A Next.js application displaying wildlife conservation data with interactive charts and bilingual support.
 
-## Features
-
-- **Interactive Data Visualization**: Bar and line charts using Chart.js
-- **Bilingual Support**: Full English/French language switching
-- **Multi-Currency Support**: USD, CAD, EUR, JPY conversion
-- **Regional Filtering**: Filter data by North America, South America, Europe, Asia, or view global data
-- **Responsive Design**: Built with Tailwind CSS for all device sizes
-- **Real-time Updates**: Dynamic chart updates based on user selections
-
-## Tech Stack
-
-- **Framework**: Next.js 15 with App Router
-- **Language**: JavaScript (ES6+)
-- **Styling**: Tailwind CSS
-- **Charts**: Chart.js with react-chartjs-2
-- **Data Labels**: chartjs-plugin-datalabels
-
 ## Getting Started
 
 First, install dependencies:
