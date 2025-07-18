@@ -1,8 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Endangered Animals Dashboard
+
+A Next.js application displaying wildlife conservation data with interactive charts and bilingual support.
+
+## Features
+
+- **Interactive Data Visualization**: Bar and line charts using Chart.js
+- **Bilingual Support**: Full English/French language switching
+- **Multi-Currency Support**: USD, CAD, EUR, JPY conversion
+- **Regional Filtering**: Filter data by North America, South America, Europe, Asia, or view global data
+- **Responsive Design**: Built with Tailwind CSS for all device sizes
+- **Real-time Updates**: Dynamic chart updates based on user selections
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: JavaScript (ES6+)
+- **Styling**: Tailwind CSS
+- **Charts**: Chart.js with react-chartjs-2
+- **Data Labels**: chartjs-plugin-datalabels
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,22 +39,45 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the dashboard.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── page.js          # Main dashboard component
+│   ├── layout.js        # Root layout
+│   └── globals.css      # Global styles
+└── components/          # Reusable components (if any)
+```
 
-## Learn More
+## Data Structure
 
-To learn more about Next.js, take a look at the following resources:
+The dashboard displays:
+- **Endangered Species Data**: Population counts by region and year (2020-2023)
+- **Funding Data**: Wildlife protection funding by region over time (2019-2023)
+- **Exchange Rates**: Currency conversion for funding visualization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⚠️ **Note**: All data in this dashboard is artificially generated for educational purposes and does not represent real wildlife conservation statistics.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Key Components
 
-## Deploy on Vercel
+- **Language Switching**: Toggle between English and French
+- **Region Filtering**: View global or region-specific data
+- **Year Selection**: Choose data year for species charts
+- **Currency Conversion**: Display funding in different currencies
+- **Visual Highlighting**: Lowest population species highlighted in red
+
+## Development
+
+This project uses modern React patterns:
+- Functional components with hooks
+- State management with `useState`
+- Client-side rendering with `'use client'`
+- Responsive design with Tailwind utilities
+
+## Deployment
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
