@@ -125,7 +125,7 @@ export default function Dashboard() {
       wildlifeFunding: "Wildlife Funding",
       fundingMillions: "Funding (Millions)",
       millions: "Millions",
-      individualsInWild: "Individuals in the Wild",
+      individualsInWild: "Number of Individuals in the Wild",
       individuals: "Individuals",
       disclaimer: "⚠️ Data Disclaimer: The data presented in this dashboard is artificially generated and does not represent real wildlife conservation statistics or funding information.",
       species: {
@@ -168,7 +168,7 @@ export default function Dashboard() {
       wildlifeFunding: "Financement de la faune",
       fundingMillions: "Financement (Millions)",
       millions: "Millions",
-      individualsInWild: "Individus dans la nature",
+      individualsInWild: "Nombre d'individus dans la nature",
       individuals: "Individus",
       disclaimer: "⚠️ Avertissement sur les Données : Les données présentées dans ce tableau de bord sont générées artificiellement et ne représentent pas de véritables statistiques de conservation de la faune ou d'informations de financement.",
       species: {
